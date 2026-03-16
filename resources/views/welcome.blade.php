@@ -1050,6 +1050,7 @@
                     <div class="project-title">Doctors Booking App</div>
                     <div class="project-desc">
                         A production-ready healthcare platform. Patients book appointments, pay via MTN/Airtel Mobile Money, and chat with an AI assistant. Doctors manage schedules and earnings. Full Filament admin panel with role-based permissions.
+                        For login credentials check my repo on github. 
                     </div>
                     <div class="project-stack">
                         <span class="stack-tag">Laravel 11</span>
@@ -1060,7 +1061,7 @@
                         <span class="stack-tag">PHPUnit</span>
                     </div>
                     <div class="project-links">
-                        <a href="#" class="project-link primary" target="_blank">
+                        <a href="http://localhost:8000/login" class="project-link primary" target="_blank">
                             Live Demo
                             <svg width="12" height="12" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
                         </a>
