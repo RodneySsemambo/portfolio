@@ -961,7 +961,7 @@
             </p>
 
             <p class="hero-desc">
-                I build production-ready web applications with clean architecture, real-world integrations, and comprehensive test coverage. Passionate about solving real problems with elegant code.
+                I build production-ready web applications with clean architecture,rest Apis, real-world integrations, and comprehensive test coverage. Passionate about solving real problems with elegant code.
             </p>
 
             <div class="hero-actions">
@@ -993,8 +993,7 @@
         <div class="hero-right">
             <div class="photo-frame">
                 <div class="photo-inner">
-                    {{-- Replace src with your actual photo path --}}
-                    {{-- <img src="{{ asset('images/rodney.jpg') }}" alt="Rodney Ssemambo"> --}}
+                    <img src="{{ asset('images/rodney.jpg') }}" alt="Rodney Ssemambo"> 
                     <div class="photo-placeholder">
                         <svg width="64" height="64" fill="none" stroke="currentColor" stroke-width="1" viewBox="0 0 24 24"><path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
                         <span>Add your photo here<br><small>resources/images/rodney.jpg</small></span>
@@ -1010,10 +1009,7 @@
                     </div>
                 </div>
 
-                <div class="photo-card2">
-                    <div class="photo-card-label">Tests</div>
-                    <div class="photo-card-value"><span>31</span> Passing ✓</div>
-                </div>
+                
             </div>
         </div>
     </section>
@@ -1145,7 +1141,6 @@
             <!-- Project 1 - Main -->
             <div class="project-card reveal" style="grid-column: span 1;">
                 <div class="project-image">
-                    {{-- <img src="{{ asset('images/doctors-app.png') }}" alt="Doctors Booking App"> --}}
                     <div class="project-image-placeholder">🏥</div>
                     <span class="project-badge">Featured</span>
                 </div>
@@ -1153,6 +1148,7 @@
                     <div class="project-title">Doctors Booking App</div>
                     <div class="project-desc">
                         A production-ready healthcare platform. Patients book appointments, pay via MTN/Airtel Mobile Money, and chat with an AI assistant. Doctors manage schedules and earnings. Full Filament admin panel with role-based permissions.
+                        For login credentials check my repo on github. 
                     </div>
                     <div class="project-stack">
                         <span class="stack-tag">Laravel 11</span>
@@ -1163,13 +1159,13 @@
                         <span class="stack-tag">PHPUnit</span>
                     </div>
                     <div class="project-links">
-                        <a href="#" class="project-link primary" target="_blank">
+                        <a href="https://doctors-booking-app-production.up.railway.app/login" class="project-link primary" target="_blank">
                             Live Demo
                             <svg width="12" height="12" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
                         </a>
                         <a href="https://github.com/RodneySsemambo/Doctors_Booking_App" class="project-link ghost" target="_blank">
                             <svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
-                            GitHub
+                           View Repo on GitHub
                         </a>
                     </div>
                 </div>
@@ -1193,9 +1189,163 @@
                         <span class="stack-tag">Render</span>
                     </div>
                     <div class="project-links">
-                        <a href="https://github.com/RodneySsemambo" class="project-link ghost" target="_blank">
+                        <a href="https://github.com/RodneySsemambo/Portifolio" class="project-link ghost" target="_blank">
+                            <svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                           View Repo On GitHub
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Project 3 - Portfolio itself -->
+            <div class="project-card reveal">
+                <div class="project-image">
+                    <div class="project-image-placeholder">💼</div>
+                </div>
+                <div class="project-body">
+                    <div class="project-title">This retail-management-dashboard</div>
+                    <div class="project-desc">
+                        A comprehensive Retail Management System built with Laravel that streamlines daily retail operations. Features include multi-shop management, category organization, user role management, and real-time daily retail tracking. Perfect for small to medium retail businesses looking to digitize their operations.
+                    </div>
+                    <div class="project-stack">
+                        <span class="stack-tag">Laravel</span>
+                        <span class="stack-tag">Blade</span>
+                        <span class="stack-tag">MySQL</span>
+                        <span class="stack-tag">Docker</span>
+                        <span class="stack-tag">Php</span>
+                        <span class="stack-tag">Retail Management</span>
+                        <span class="stack-tag">Pos-System</span>
+                        <span class="stack-tag">Invetory Management</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/RodneySsemambo/retail-management-dashboard" class="project-link ghost" target="_blank">
+                            <svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                            View Repo On GitHub
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Project 4 - Portfolio itself -->
+            <div class="project-card reveal">
+                <div class="project-image">
+                    <div class="project-image-placeholder">💼</div>
+                </div>
+                <div class="project-body">
+                    <div class="project-title">Project Management Dashboard</div>
+                    <div class="project-desc">
+                         Professional project management system built with Laravel 12 & Filament 4. Features include project tracking, task management, team collaboration, role-based access control, and real-time dashboards. Perfect for businesses and organizations managing multiple projects.                    </div>
+                    <div class="project-stack">
+                        <span class="stack-tag">Laravel</span>
+                        <span class="stack-tag">Blade</span>
+                        <span class="stack-tag">MySQL</span>
+                        <span class="stack-tag">Filament</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/RodneySsemambo/project-management-dashboard" class="project-link ghost" target="_blank">
+                            <svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                            View Repo On GitHub
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Project 5 - Portfolio itself -->
+            <div class="project-card reveal">
+                <div class="project-image">
+                    <div class="project-image-placeholder">💼</div>
+                </div>
+                <div class="project-body">
+                    <div class="project-title">Shop Api</div>
+                    <div class="project-desc">
+                        # 🛒 Vanilla PHP E-Commerce System  A fully functional e-commerce platform built from scratch with pure PHP and MySQL. Demonstrates core web development concepts without framework dependencies.  ## ✨ Features - User authentication & session management - Product catalog with categories - Shopping cart functionality - Order processing system - Admin 
+                    </div>
+                    <div class="project-stack">
+                        <span class="stack-tag">MySQL</span>
+                        <span class="stack-tag">Vanilla Php</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/RodneySsemambo/shop-api" class="project-link ghost" target="_blank">
                             <svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
                             GitHub
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Project 6 - Portfolio itself -->
+            <div class="project-card reveal">
+                <div class="project-image">
+                    <div class="project-image-placeholder">💼</div>
+                </div>
+                <div class="project-body">
+                    <div class="project-title">Internship Project</div>
+                    <div class="project-desc">
+                🔌 Livewire REST API - Internship Project A robust RESTful API built during internship demonstrating modern PHP practices with Laravel and Livewire integration. Showcases clean architecture, API design patterns, and real-world implementation. ## 📡 API Endpoints - 🔐 Authentication (JWT/Sanctum) - 👥 User management - 📦 Resource CRUD operation
+                    </div>
+                    <div class="project-stack">
+                        <span class="stack-tag">Laravel</span>
+                        <span class="stack-tag">Blade</span>
+                        <span class="stack-tag">MySQL</span>
+                        <span class="stack-tag">Docker</span>
+                        <span class="stack-tag">Php</span>
+                        <span class="stack-tag">Rest_api</span>
+                        <span class="stack-tag">Livewire</span>
+                        
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/RodneySsemambo/internhip_api" class="project-link ghost" target="_blank">
+                            <svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                            View Repo On GitHub
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Project 7 - Portfolio itself -->
+            <div class="project-card reveal">
+                <div class="project-image">
+                    <div class="project-image-placeholder">💼</div>
+                </div>
+                <div class="project-body">
+                    <div class="project-title">Movie-Library Api</div>
+                    <div class="project-desc">
+                        # 📝 Vanilla PHP CRUD Operations A complete CRUD (Create, Read, Update, Delete) application built with pure PHP. Serves as a foundation for understanding database interactions and PHP fundamentals. ## 🔧 Core Concepts Demonstrated - PHP OOP (Classes, Inheritance, Interfaces) - PDO for secure database operations - Form validation and sanitization
+                    </div>
+                    <div class="project-stack">
+                        <span class="stack-tag">Php</span>
+                        <span class="stack-tag">MySQL</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/RodneySsemambo/-movie-library-api" class="project-link ghost" target="_blank">
+                            <svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                            View Repo On GitHub
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Project 8 - Portfolio itself -->
+            <div class="project-card reveal">
+                <div class="project-image">
+                    <div class="project-image-placeholder">💼</div>
+                </div>
+                <div class="project-body">
+                    <div class="project-title">Business Management Dashboard</div>
+                    <div class="project-desc">
+                        A Perfect Business Management System built with Laravel. Features include multi-shop management, category organization, user role management, and real-time daily retail tracking. Ideal for small to medium retail businesses looking to digitize their operations.
+                    </div>
+                    <div class="project-stack">
+                        <span class="stack-tag">Laravel</span>
+                        <span class="stack-tag">Blade</span>
+                        <span class="stack-tag">MySQL</span>
+                        <span class="stack-tag">Docker</span>
+                        <span class="stack-tag">Filament</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/RodneySsemambo/business_managemant" class="project-link ghost" target="_blank">
+                            <svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                            View Repo On GitHub
                         </a>
                     </div>
                 </div>
@@ -1214,14 +1364,17 @@
                     I'm actively looking for remote Laravel/PHP developer roles. If you're building something interesting or need a reliable backend developer — let's talk.
                 </p>
                 <div class="contact-items">
-                    <a href="/cdn-cgi/l/email-protection#6f1c1c0a020e020d001d000b010a16565b2f08020e0603410c0002" class="contact-item">
+                    <a href="mailto:ssemamborodney94@gmail.com" class="contact-item">
                         <div class="contact-item-icon">
                             <svg width="18" height="18" fill="none" stroke="#4f9cf9" stroke-width="2" viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
                         </div>
                         <div class="contact-item-text">
                             <div class="contact-item-label">Email</div>
-                            <div class="contact-item-value"><span class="__cf_email__" data-cfemail="b5c6c6d0d8d4d8d7dac7dad1dbd0cc8c81f5d2d8d4dcd99bd6dad8">[email&#160;protected]</span></div>
+                            <div class="contact-item-value">rodneyssemambo88@gmail.com</div>
+                     
+
                         </div>
+                       
                     </a>
                     <a href="https://github.com/RodneySsemambo" target="_blank" class="contact-item">
                         <div class="contact-item-icon">
@@ -1237,8 +1390,8 @@
                             <svg width="18" height="18" fill="#4f9cf9" viewBox="0 0 24 24"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg>
                         </div>
                         <div class="contact-item-text">
-                            <div class="contact-item-label">LinkedIn</div>
-                            <div class="contact-item-value">Add your LinkedIn URL</div>
+                            <div class="contact-item-label">Phone/Whatsapp Me</div>
+                            <div class="contact-item-value">0756886299</div>
                         </div>
                     </a>
                 </div>
@@ -1289,12 +1442,12 @@
         <p>© {{ date('Y') }} Rodney Ssemambo. Built with Laravel 🇺🇬</p>
         <div class="footer-links">
             <a href="https://github.com/RodneySsemambo" target="_blank">GitHub</a>
-            <a href="/cdn-cgi/l/email-protection#9ae9e9fff7fbf7f8f5e8f5fef4ffe3a3aedafdf7fbf3f6b4f9f5f7">Email</a>
+            <a href="mailto:ssemamborodney94@gmail.com">Email</a>
             <a href="#hero">Back to top ↑</a>
         </div>
     </footer>
 
-    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+    <script>
         // Custom cursor
         const cursor = document.getElementById('cursor');
         const follower = document.getElementById('follower');
@@ -1324,4 +1477,13 @@
         // Scroll reveal
         const reveals = document.querySelectorAll('.reveal');
         const observer = new IntersectionObserver((entries) => {
-            entr
+            entries.forEach((entry, i) => {
+                if (entry.isIntersecting) {
+                    setTimeout(() => entry.target.classList.add('visible'), i * 80);
+                }
+            });
+        }, { threshold: 0.1 });
+        reveals.forEach(el => observer.observe(el));
+    </script>
+</body>
+</html>
